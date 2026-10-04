@@ -1,0 +1,89 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 607 >>
+stream
+BT
+/F1 12 Tf
+50 750 Td
+16 TL
+(LOCALIQ Test Knowledge Document - Page 1) '
+() '
+(LOCALIQ Architecture & System Definition:) '
+(LOCALIQ is an air-gapped, privacy-first on-device knowledge assistant designed to index personal and enterprise documents, extract text locally using Mozilla PDF.js, and answer questions grounded strictly in local knowledge without leaking data or telemetry to third-party cloud servers.) '
+() '
+(Core Capabilities:) '
+(1. Zero-cloud document indexing) '
+(2. Privacy-enforced air-gapped knowledge vault) '
+(3. Local ONNX neural inference) '
+(4. Grounded RAG answer generation) '
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 550 >>
+stream
+BT
+/F1 12 Tf
+50 750 Td
+16 TL
+(LOCALIQ Test Knowledge Document - Page 2) '
+() '
+(Embedding Model and Vector Dimensionality:) '
+(LOCALIQ uses the sentence-transformers/all-MiniLM-L6-v2 embedding model for dense neural representation.) '
+(The embedding model produces 384-dimensional dense vectors with unit L2 normalization.) '
+(All 384-dimensional vectors are stored locally in the browser IndexedDB vector database scoped by user ID.) '
+(This architecture ensures maximum precision and mathematical consistency for cosine similarity comparison.) '
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 682 >>
+stream
+BT
+/F1 12 Tf
+50 750 Td
+16 TL
+(LOCALIQ Test Knowledge Document - Page 3) '
+() '
+(Local Semantic Search & Retrieval Pipeline:) '
+(LOCALIQ performs semantic search by executing on-device mathematical inner product cosine similarity comparisons against indexed 384-dimensional vectors.) '
+(When a user submits a query, LOCALIQ embeds the query with the local all-MiniLM-L6-v2 model, calculates cosine similarity against every stored chunk vector, filters candidates by a similarity threshold of 0.35, and ranks the matching chunks in descending order.) '
+(Every retrieved chunk maintains strict provenance including file name, page number, and chunk index for verifiable citation.) '
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000197 00000 n 
+0000000855 00000 n 
+0000000981 00000 n 
+0000001582 00000 n 
+0000001708 00000 n 
+0000002441 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+2567
+%%EOF

@@ -1,0 +1,24 @@
+CANDIDATE RESUME: DR. HELENA VANCE
+Lead Distributed Systems & Machine Learning Engineer
+
+Professional Summary:
+Dr. Helena Vance has 10+ years of experience architecting privacy-preserving machine learning infrastructure, edge neural search algorithms, and client-side vector databases. Former Principal Engineer at Enclave AI and Research Fellow at Berkeley AI Research (BAIR).
+
+Key Technical Competencies:
+- Vector Search: Faiss, HNSW, Hierarchical K-Means, Cosine Similarity, Inner Product Spaces
+- Machine Learning Models: Sentence Transformers, all-MiniLM-L6-v2, Whisper, Llama, Mistral
+- Security: Air-gapped enclaves, zero-telemetry edge deployments, confidential computing
+- Languages & Frameworks: Rust, TypeScript, Python, ONNX Runtime, WebAssembly (WASM)
+
+Work Experience:
+1. Staff Machine Learning Architect — Sovereign Intelligence (2021 – Present)
+- Designed on-device neural search serving 450,000 active air-gapped workstations with 0 cloud dependencies.
+- Reduced cold-start vector index query latency from 140ms to 24ms using quantized dense float32 tensors.
+
+2. Senior ML Infrastructure Engineer — Horizon Cloud (2018 – 2021)
+- Built high-throughput document ingestion pipelines parsing PDF, DOCX, and OCR streams.
+- Maintained 99.99% document provenance accuracy using paragraph-level citation anchors.
+
+Education:
+Ph.D. in Computer Science — Stanford University (Specialization: Distributed Information Retrieval)
+B.S. in Electrical Engineering & Computer Science — UC Berkeley (Summa Cum Laude)

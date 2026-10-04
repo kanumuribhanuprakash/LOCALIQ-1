@@ -1,0 +1,8 @@
+{
+  "name": "LOCALIQ",
+  "description": "Private Intelligence Workspace. Air-gapped local embeddings, vector retrieval, and zero-telemetry multimodal knowledge assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
